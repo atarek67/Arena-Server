@@ -21,7 +21,7 @@ module.exports.sendConfirmationEmail = (fullName, email) => {
       html: `<h1>Email Confirmation</h1>
           <h2>Hello ${fullName}</h2>
           <p>Thank you for subscribing. Please confirm your email by clicking on the following link</p>
-          <a href=http://localhost:3000/confirm-email/${email}> Click here</a>
+          <a href=https://arena-client-beta.vercel.app/confirm-email/${email}> Click here</a>
           </div>`,
     }).catch(err => console.log(err));
   };
@@ -34,7 +34,7 @@ module.exports.sendConfirmationEmail = (fullName, email) => {
       html: `<h1>reset password</h1>
           <h2>Hello</h2>
           <p> Please to reset you password click on the following link</p>
-          <a href=http://localhost:3000/reset-password/${email}> Click here</a>
+          <a href=https://arena-client-beta.vercel.app/reset-password/${email}> Click here</a>
           </div>`,
     }).catch(err => console.log(err));
   };
