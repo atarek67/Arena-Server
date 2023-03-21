@@ -1,0 +1,67 @@
+APIs 
+Players
+Get All Players
+http://localhost:7500/api/players	
+Get Player By ID
+http://localhost:7500/api/players/:id
+Add Player
+http://localhost:7500/api/players/add	
+Update Player 
+http://localhost:7500/api/players/update	
+Delete Player By ID
+http://localhost:7500/api/players/delete/:id
+Get All Games By PlayerID
+http://localhost:7500/api/players/games/:id
+					
+FieldOwners
+Get All FieldOwners
+http://localhost:7500/api/fieldOwners
+Get FieldOwner By ID
+http://localhost:7500/api/fieldOwners/:id
+Add FieldOwner
+http://localhost:7500/api/fieldOwners/add	
+Update FieldOwner 
+http://localhost:7500/api/fieldOwners/update	
+Delete FieldOwner By ID
+http://localhost:7500/api/fieldOwners/delete/:id
+Get All Fields by FieldOwnerID
+http://localhost:7500/api/fieldOwners/fields/:id
+
+Fields
+Get All Fields
+http://localhost:7500/api/fields
+Get Fields By ID
+http://localhost:7500/api/fields/:id
+Add Field
+http://localhost:7500/api/fields/add	
+Update Field 
+http://localhost:7500/api/fields/update	
+Delete Field By ID
+http://localhost:7500/api/fields/delete/:id
+Get All Valid Fields
+http://localhost:7500/api/fields/valid
+Get All Invalid Fields
+http://localhost:7500/api/fields/invalid
+Get All Fields by location
+http://localhost:7500/api/fields/location/:location
+
+Games
+Get All Games
+http://localhost:7500/api/games
+Get Games By ID
+http://localhost:7500/api/games/:id
+Add Game
+http://localhost:7500/api/games/add	
+Update Game 
+http://localhost:7500/api/games/update	
+Delete Game By ID
+http://localhost:7500/api/games/delete/:id
+Get All Games by FieldID
+http://localhost:7500/api/games/field/:id
+
+Login
+http://localhost:7500/api/login
+
+
+
+
